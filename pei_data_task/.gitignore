@@ -1,0 +1,35 @@
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# -----------------
+# Virtual Environments
+# -----------------
+.venv/
+venv/
+ENV/
+env/
+*.env
+poetry.lock
+
+# -----------------
+# Jupyter / Databricks Notebooks
+# -----------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -----------------
+# VS Code
+# -----------------
+.vscode/
+.history/
