@@ -170,3 +170,5 @@ def write_df_to_table(
         raise RuntimeError(f"Failed to write DataFrame to table {full_table_name}: {str(e)}")
 
 
+if __name__ == "__main__":
+    pass

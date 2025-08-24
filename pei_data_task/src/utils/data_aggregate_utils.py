@@ -14,3 +14,6 @@ def profit_agg_df(orders_enriched_df: DataFrame) -> DataFrame:
     )
 
     return profit_agg_df
+
+if __name__ == "__main__":
+    pass

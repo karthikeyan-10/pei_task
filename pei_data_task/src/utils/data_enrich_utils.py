@@ -22,7 +22,7 @@ def enrich_customer_table(customer_df: DataFrame) -> DataFrame:
                 F.trim(F.col("Customer_Name")),       # Trim leading/trailing spaces
                 r"\s+", " "
             ),
-            r"[^a-zA-Z\s']", ""                        # Keep only letters, spaces, and single quote
+            r"[^a-zA-Z\s']", ""                       # Keep only letters, spaces, and single quote
         )).withColumn(
         "email",
         F.when(
@@ -111,3 +111,6 @@ def enrich_order_table(customers_enriched: DataFrame, products_enriched: DataFra
     )
 
     return orders_enriched
+
+if __name__ == "__main__":
+    pass
