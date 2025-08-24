@@ -3,8 +3,8 @@ PEI Data Engineering Task.
 The main intent of this task is to build an aggregate table that shows profit by various categories. To achieve the final aggregate table, there are various intermediate data analysis, cleaning and transformations are applied. 
 
 The source files include the sample US sales data from three different files.
-> Customer.xlsx
-> Products.csv
+> Customer.xlsx,
+> Products.csv,
 > Orders.json
 
 Assumptions made:
@@ -38,8 +38,8 @@ The SQL output on aggregated table is attached below.
 
 
 Scope for enhancement:
-> The entire flow can be driven with the yaml config file and can have various options to include databricks features like **liquid clustering**, delta table configs, vaccum, optimize, DLT, etc..
-> Add more DQ to check primary_key uniqueness and staleness data.
-> Schedule the job to run on certain interval using Databricks jobs and workflow.
-> Build dashboard on final master table.
+- The entire flow can be driven with the yaml config file and can have various options to include databricks features like **liquid clustering**, delta table configs, vaccum, optimize, DLT, etc..
+- Add more DQ to check primary_key uniqueness and staleness data.
+- Schedule the job to run on certain interval using Databricks jobs and workflow.
+- Build dashboard on final master table.
 
