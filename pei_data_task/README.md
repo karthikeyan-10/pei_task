@@ -2,6 +2,8 @@ PEI Data Engineering Task.
 
 The main intent of this task is to build an aggregate table that shows profit by various categories. To achieve the final aggregate table, there are various intermediate data analysis, cleaning and transformations are applied. 
 
+The entire implementation is done using Pyspark, Pandas and SQL. **Poetry** is used as dependency management tool. 
+
 The source files include the sample US sales data from three different files.
 > Customer.xlsx,
 > Products.csv,
